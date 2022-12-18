@@ -1,39 +1,3 @@
-# Anna Friebe for DVA245 at MDH based on material fron Goldwasser
-# with the following copyright
-#
-# TODO: Implement the ArrayBinaryTree and the internal Position
-# class
-# The element values of the tree shall be stored in a list.
-# The root can be positioned at element with index 0 or 1.
-# If the root is at index 0, the children of a parent are at indices 
-# parentPos*2 + 1 and parentPos*2+2. The parent of a child is at (childPos - 1)/2
-# If the root is at index 1, the children are at indices parentPos*2
-# and parentPos*2 + 1. The parent of a child is at childPos/2
-# 
-#  You can look at the LinkedBinaryTree implementation in chapter 8 of
-# https://github.com/mjwestcott/Goodrich
-# to see similar concepts for a linked binary tree.
-# 
-# Copyright 2013, Michael H. Goldwasser
-#
-# Developed for use with the book:
-#
-#    Data Structures and Algorithms in Python
-#    Michael T. Goodrich, Roberto Tamassia, and Michael H. Goldwasser
-#    John Wiley & Sons, 2013
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 from binary_tree import BinaryTree
 
